@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UILayer.selectStadiumSeatsController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="anchor" stylesheets="@../UILayer/application.css" BorderPane.alignment="CENTER">
+         <children>
+            <Circle fill="#39ff1f" layoutX="297.0" layoutY="212.0" radius="81.0" stroke="#ff0707" strokeType="INSIDE" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5eb96" height="60.0" layoutX="288.0" layoutY="182.0" stroke="BLACK" strokeType="INSIDE" width="18.0" />
+            <RadioButton fx:id="seat1" layoutX="225.0" layoutY="131.0" mnemonicParsing="false" onAction="#seat1Toggle" />
+            <RadioButton fx:id="seat2" layoutX="243.0" layoutY="122.0" mnemonicParsing="false" onAction="#seat2Toggle" />
+            <RadioButton fx:id="seat3" layoutX="216.0" layoutY="49.0" mnemonicParsing="false" onAction="#seat3Toggle" />
+            <RadioButton fx:id="seat4" layoutX="216.0" layoutY="113.0" mnemonicParsing="false" onAction="#seat4Toggle" />
+            <RadioButton fx:id="seat5" layoutX="216.0" layoutY="91.0" mnemonicParsing="false" onAction="#seat5Toggle" />
+            <RadioButton fx:id="seat6" layoutX="216.0" layoutY="73.0" mnemonicParsing="false" onAction="#seat6Toggle" />
+            <RadioButton fx:id="seat7" layoutX="261.0" layoutY="113.0" mnemonicParsing="false" onAction="#seat7Toggle" />
+            <RadioButton fx:id="seat8" layoutX="288.0" layoutY="113.0" mnemonicParsing="false" onAction="#seat8Toggle" />
+            <RadioButton fx:id="seat9" layoutX="313.0" layoutY="113.0" mnemonicParsing="false" onAction="#seat9Toggle" />
+            <RadioButton fx:id="seat10" layoutX="331.0" layoutY="122.0" mnemonicParsing="false" onAction="#seat10Toggle" />
+            <RadioButton fx:id="seat11" layoutX="349.0" layoutY="131.0" mnemonicParsing="false" onAction="#seat11Toggle" />
+            <RadioButton fx:id="seat12" layoutX="234.0" layoutY="49.0" mnemonicParsing="false" onAction="#seat12Toggle" />
+            <RadioButton fx:id="seat13" layoutX="358.0" layoutY="49.0" mnemonicParsing="false" onAction="#seat13Toggle" />
+            <RadioButton fx:id="seat14" layoutX="358.0" layoutY="73.0" mnemonicParsing="false" onAction="#seat14Toggle" />
+            <RadioButton fx:id="seat15" layoutX="358.0" layoutY="91.0" mnemonicParsing="false" onAction="#seat15Toggle" />
+            <RadioButton fx:id="seat16" layoutX="358.0" layoutY="113.0" mnemonicParsing="false" onAction="#seat16Toggle" />
+            <RadioButton fx:id="seat17" layoutX="252.0" layoutY="49.0" mnemonicParsing="false" onAction="#seat17Toggle" />
+            <RadioButton fx:id="seat18" layoutX="270.0" layoutY="49.0" mnemonicParsing="false" onAction="#seat18Toggle" />
+            <RadioButton fx:id="seat19" layoutX="288.0" layoutY="49.0" mnemonicParsing="false" onAction="#seat19Toggle" />
+            <RadioButton fx:id="seat20" layoutX="304.0" layoutY="49.0" mnemonicParsing="false" onAction="#seat20Toggle" />
+            <RadioButton fx:id="seat21" layoutX="322.0" layoutY="49.0" mnemonicParsing="false" onAction="#seat21Toggle" />
+            <RadioButton fx:id="seat22" layoutX="340.0" layoutY="49.0" mnemonicParsing="false" onAction="#seat22Toggle" />
+            <RadioButton fx:id="seat23" layoutX="234.0" layoutY="73.0" mnemonicParsing="false" onAction="#seat23Toggle" />
+            <RadioButton fx:id="seat24" layoutX="252.0" layoutY="73.0" mnemonicParsing="false" onAction="#seat24Toggle" />
+            <RadioButton fx:id="seat25" layoutX="270.0" layoutY="73.0" mnemonicParsing="false" onAction="#seat25Toggle" />
+            <RadioButton fx:id="seat26" layoutX="288.0" layoutY="73.0" mnemonicParsing="false" onAction="#seat26Toggle" />
+            <RadioButton fx:id="seat27" layoutX="304.0" layoutY="73.0" mnemonicParsing="false" onAction="#seat27Toggle" />
+            <RadioButton fx:id="seat28" layoutX="322.0" layoutY="73.0" mnemonicParsing="false" onAction="#seat27Toggle" />
+            <RadioButton fx:id="seat29" layoutX="340.0" layoutY="73.0" mnemonicParsing="false" onAction="#seat29Toggle" />
+            <RadioButton fx:id="seat30" layoutX="234.0" layoutY="91.0" mnemonicParsing="false" onAction="#seat30Toggle" />
+            <RadioButton fx:id="seat31" layoutX="252.0" layoutY="91.0" mnemonicParsing="false" onAction="#seat31Toggle" />
+            <RadioButton fx:id="seat32" layoutX="270.0" layoutY="91.0" mnemonicParsing="false" onAction="#seat32Toggle" />
+            <RadioButton fx:id="seat33" layoutX="288.0" layoutY="91.0" mnemonicParsing="false" onAction="#seat33Toggle" />
+            <RadioButton fx:id="seat34" layoutX="304.0" layoutY="91.0" mnemonicParsing="false" onAction="#seat34Toggle" />
+            <RadioButton fx:id="seat35" layoutX="322.0" layoutY="91.0" mnemonicParsing="false" onAction="#seat35Toggle" />
+            <RadioButton fx:id="seat36" layoutX="340.0" layoutY="91.0" mnemonicParsing="false" onAction="#seat36Toggle" />
+            <RadioButton fx:id="seat37" layoutX="371.0" layoutY="160.0" mnemonicParsing="false" onAction="#seat37Toggle" />
+            <RadioButton fx:id="seat38" layoutX="359.0" layoutY="146.0" mnemonicParsing="false" onAction="#seat38Toggle" />
+            <RadioButton fx:id="seat39" layoutX="389.0" layoutY="155.0" mnemonicParsing="false" onAction="#seat39Toggle" />
+            <RadioButton fx:id="seat40" layoutX="376.0" layoutY="178.0" mnemonicParsing="false" onAction="#seat40Toggle" />
+            <RadioButton fx:id="seat41" layoutX="380.0" layoutY="197.0" mnemonicParsing="false" onAction="#seat41Toggle" />
+            <RadioButton fx:id="seat42" layoutX="379.0" layoutY="217.0" mnemonicParsing="false" onAction="#seat42Toggle" />
+            <RadioButton fx:id="seat43" layoutX="374.0" layoutY="235.0" mnemonicParsing="false" onAction="#seat43Toggle" />
+            <RadioButton fx:id="seat44" layoutX="366.0" layoutY="251.0" mnemonicParsing="false" onAction="#seat44Toggle" />
+            <RadioButton fx:id="seat45" layoutX="356.0" layoutY="265.0" mnemonicParsing="false" onAction="#seat45Toggle" />
+            <RadioButton fx:id="seat46" layoutX="342.0" layoutY="276.0" mnemonicParsing="false" onAction="#seat46Toggle" />
+            <RadioButton fx:id="seat47" layoutX="327.0" layoutY="286.0" mnemonicParsing="false" onAction="#seat48Toggle" />
+            <RadioButton fx:id="seat49" layoutX="309.0" layoutY="293.0" mnemonicParsing="false" onAction="#seat49Toggle" />
+            <RadioButton fx:id="seat50" layoutX="289.0" layoutY="295.0" mnemonicParsing="false" onAction="#seat50Toggle" />
+            <RadioButton fx:id="seat51" layoutX="270.0" layoutY="294.0" mnemonicParsing="false" onAction="#sea51Toggle" />
+            <RadioButton fx:id="seat52" layoutX="252.0" layoutY="286.0" mnemonicParsing="false" onAction="#seat52Toggle" />
+            <RadioButton fx:id="seat53" layoutX="236.0" layoutY="277.0" mnemonicParsing="false" onAction="#seat54Toggle" />
+            <RadioButton fx:id="seat54" layoutX="221.0" layoutY="265.0" mnemonicParsing="false" onAction="#seat54Toggle" />
+            <RadioButton fx:id="seat55" layoutX="210.0" layoutY="250.0" mnemonicParsing="false" onAction="#seat55Toggle" />
+            <RadioButton fx:id="seat56" layoutX="203.0" layoutY="233.0" mnemonicParsing="false" onAction="#seat56Toggle" />
+            <RadioButton fx:id="seat57" layoutX="199.0" layoutY="214.0" mnemonicParsing="false" onAction="#seat57Toggle" />
+            <RadioButton fx:id="seat58" layoutX="199.0" layoutY="195.0" mnemonicParsing="false" onAction="#seat58Toggle" />
+            <RadioButton fx:id="seat59" layoutX="202.0" layoutY="177.0" mnemonicParsing="false" onAction="#seat59Toggle" />
+            <RadioButton fx:id="seat60" layoutX="208.0" layoutY="160.0" mnemonicParsing="false" onAction="#seat60Toggle" />
+            <RadioButton fx:id="seat61" layoutX="217.0" layoutY="146.0" mnemonicParsing="false" onAction="#seat61Toggle" />
+            <RadioButton fx:id="seat62" layoutX="189.0" layoutY="159.0" mnemonicParsing="false" onAction="#seat62Toggle" />
+            <Button fx:id="returnButton" layoutX="26.0" layoutY="338.0" mnemonicParsing="false" onAction="#goBack" prefHeight="26.0" prefWidth="76.0" text="Go Back" />
+            <Button fx:id="Payment" layoutX="443.0" layoutY="338.0" mnemonicParsing="false" onAction="#makeTicket" text="Proceed to Checkout" />
+            <Text layoutX="26.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Your Seats" wrappingWidth="97.1123046875" />
+         </children></AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UILayer.manageMatchesController">
+   <children>
+      <AnchorPane layoutX="25.0" layoutY="64.0" prefHeight="516.0" prefWidth="700.0">
+         <children>
+            <TableView fx:id="tableView" layoutX="21.0" layoutY="28.0" prefHeight="328.0" prefWidth="613.0">
+              <columns>
+                <TableColumn fx:id="matchid" prefWidth="90.0" text="Match Id" />
+                <TableColumn fx:id="awayteam" prefWidth="90.0" text="Away Team " />
+                  <TableColumn fx:id="hometeam" prefWidth="90.0" text="Home Team" />
+                  <TableColumn fx:id="date" prefWidth="90.0" text="Date" />
+                  <TableColumn fx:id="panelId" prefWidth="90.0" text="Panel ID" />
+                  <TableColumn fx:id="StadiumID" prefWidth="90.0" text="Stadium ID" />
+                  <TableColumn fx:id="statsid" prefWidth="75.0" text="Stats" />
+              </columns>
+            </TableView>
+            <Button layoutX="529.0" layoutY="457.0" mnemonicParsing="false" onAction="#removeCustomer" text="Remove" />
+            <Button fx:id="returnButton" layoutX="32.0" layoutY="467.0" mnemonicParsing="false" onAction="#goBack" prefHeight="31.0" prefWidth="88.0" style="-fx-background-color: white;" text="Go Back">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="281.0" layoutY="429.0" mnemonicParsing="false" onAction="#submit" text="Submit" />
+            <TextField fx:id="textMatchID" layoutX="21.0" layoutY="372.0" prefHeight="42.0" prefWidth="88.0" promptText="match id" />
+            <TextField fx:id="textAwayID" layoutX="109.0" layoutY="372.0" prefHeight="42.0" prefWidth="88.0" promptText="away team id" />
+            <TextField fx:id="textHomeID" layoutX="197.0" layoutY="372.0" prefHeight="42.0" prefWidth="88.0" promptText="home team id" />
+            <TextField fx:id="textDateID" layoutX="281.0" layoutY="372.0" prefHeight="42.0" prefWidth="94.0" promptText="date" />
+            <TextField fx:id="textPanelID" layoutX="375.0" layoutY="372.0" prefHeight="42.0" prefWidth="88.0" promptText="panel id" />
+            <TextField fx:id="textStadiumID" layoutX="456.0" layoutY="372.0" prefHeight="42.0" prefWidth="88.0" promptText="stadium id" />
+            <TextField fx:id="textStatsID" layoutX="544.0" layoutY="372.0" prefHeight="42.0" prefWidth="88.0" promptText="stats id" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="324.0" layoutY="31.0" text="Manage Matches">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
